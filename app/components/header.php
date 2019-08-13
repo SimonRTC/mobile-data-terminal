@@ -240,7 +240,7 @@
                 <div class="row purchace-popup">
                     <div class="col-12">
                     <span class="d-flex alifn-items-center">
-                        <p><u>Aimez ce que vous voyez?</u> Sachez que <b>cette réalisation à couter plus de 80 heures de travail</b> !<br /> Si vous souhaitez soutenir le travail de notre équipe souscrit au "Club's Membre"</p>
+                        <p><u>Aimez ce que vous voyez?</u> Sachez que <b>cette réalisation à couter plus de 80 heures de travail</b> !<br /> Si vous souhaitez soutenir le travail de notre équipe souscrivez au "Club's Membre"</p>
                         <a href="https://www.patreon.com/VirtualRoleplay" target="_blank" class="btn ml-auto btn purchase-button">Acheter le Club's Membre</a>
                         <i class="mdi mdi-close popup-dismiss"></i>
                     </span>

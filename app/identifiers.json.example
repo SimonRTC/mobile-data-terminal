@@ -1,0 +1,18 @@
+{
+  "databases": {
+    "website": {
+      "host": "localhost",
+      "charset": "utf8",
+      "database": "sandbox",
+      "username": "root",
+      "password": null
+    }
+  },
+  "fivesockets": {
+    "API_URL": "http://localhost/fivesockets/",
+    "public": "public-credential",
+    "secret": "private-credential",
+    "private_iv": "34857d973953e44afb49ea9d61104d8c",
+    "method": "AES-256-CBC"
+  }
+}

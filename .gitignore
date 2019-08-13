@@ -1,3 +1,9 @@
+##################################
+# Production server identifiers #
+
+/app/identifiers.json
+##################################
+
 #############################################
 # Does not include dependencies of composer #
 

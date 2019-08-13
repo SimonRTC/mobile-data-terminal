@@ -3,20 +3,23 @@
 class OPTS {
 
     private $database;
+    private $fivesockets;
 
     public function __construct() {
+        $explore            = $this->ExploreConfigurations();
+        $this->database     = $explore['databases'];
+        $this->fivesockets  = $explore['fivesockets'];
+    }
 
-        /* Database logins */
-        $this->database = [
-            'website' => [
-                'host'      => 'localhost',
-                'charset'   => 'utf8',
-                'database'  => 'sandbox',
-                'username'  => 'root',
-                'password'  => null
-            ]
-        ];
-        
+    public function fivesockets() {
+        return $this->fivesockets;
+    }
+
+    private function ExploreConfigurations() {
+        $path       = (realpath(__DIR__ . '/..').'/app/identifiers.json');
+        $config     = file_get_contents($path);
+        $config     = json_decode($config, true);
+        return $config;
     }
 
     public function database(string $db) {
