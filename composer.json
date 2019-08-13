@@ -1,0 +1,15 @@
+{
+    "name": "virtual-roleplay/mobile-data-terminal",
+    "description": "A simple mobile data terminal with fivesockets API",
+    "require-dev": {
+        "symfony/var-dumper": "^4.3"
+    },
+    "license": "GPL-3",
+    "authors": [
+        {
+            "name": "Simon Malpel (SimonOriginal)",
+            "email": "simon.malpel@orange.fr"
+        }
+    ],
+    "require": {}
+}
