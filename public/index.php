@@ -13,6 +13,14 @@
 
     $router->get('/', function() use ($views) { $views->_get('dashboard'); });
 
+    $router->get('/FSPRT', function() { echo 'En cours de développement'; });
+
+    $router->get('/casier-judiciaire', function() use ($views) { $views->_get('record', 'criminal/'); });
+
+    $router->get('/citoyens-vigilants', function() { echo 'En cours de développement'; });
+
+    $router->get('/espace-juridique', function() use ($views) { $views->_get('legal-space'); });
+
     $router->run();
 
 ?>
